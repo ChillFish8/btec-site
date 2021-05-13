@@ -6,8 +6,8 @@ function Home() {
     return (
         <>
             <div className="bg-purple-700 w-full pt-20">
-                <div className="flex justify-around w-full pt-16">
-                    <div>
+                <div className="flex flex-col md:flex-row justify-around w-full pt-16">
+                    <div className="px-4 md:px-0 mb-8 md:mb-0">
                         <h1 className="text-white text-6xl font-bold">
                             Mind Blowing UI
                         </h1>
@@ -16,7 +16,7 @@ function Home() {
                             <br/>you and your team to new heights
                         </h3>
                     </div>
-                    <div className="w-1/3">
+                    <div className="w-full md:w-1/3 px-4 md:px-0">
                         <h1 className="text-white text-3xl font-semibold">
                             "The developers and designers at CUM gave me and my team
                             something no other companies could."
@@ -39,15 +39,15 @@ function Home() {
             </div>
             <div className="flex flex-col items-center bg-white w-full py-8">
                 <div className="flex flex-col items-center w-full py-8">
-                    <h1 className="text-gray-900 text-3xl font-bold">
+                    <h1 className="text-gray-900 text-center text-3xl font-bold">
                         Explore what makes us the industry choice
                     </h1>
                     <div className="flex justify-center w-full mt-4">
                         <div className="w-2/3 rounded-full bg-purple-700 pb-1"/>
                     </div>
                 </div>
-                <div className="flex flex-row justify-center items-center w-3/4 my-4">
-                    <div className="w-1/3">
+                <div className="flex flex-col md:flex-row md:justify-center items-center w-3/4 my-4">
+                    <div className="w-full md:w-1/3 px-4 md:px-0">
                         <h1 className="text-4xl font-bold pb-2">
                             Unique
                         </h1>
@@ -59,8 +59,8 @@ function Home() {
                     </div>
                     <img className="h-64 ml-32 object-contain" src="/icons/stand_out.svg" alt=""/>
                 </div>
-                <div className="flex flex-row-reverse justify-center items-center w-3/4 my-4">
-                    <div className="w-1/3">
+                <div className="flex flex-col md:flex-row-reverse md:justify-center items-center w-3/4 my-4">
+                    <div className="w-full md:w-1/3 px-4 md:px-0">
                         <h1 className="text-4xl font-bold pb-2">
                             Fast
                         </h1>
@@ -71,8 +71,8 @@ function Home() {
                     </div>
                     <img className="h-64 mr-32 object-contain" src="/icons/speed.svg" alt=""/>
                 </div>
-                <div className="flex flex-row justify-center items-center w-3/4 my-4">
-                    <div className="w-1/3">
+                <div className="flex flex-col md:flex-row md:justify-center items-center w-3/4 my-4">
+                    <div className="w-full md:w-1/3 px-4 md:px-0">
                         <h1 className="text-4xl font-bold pb-2">
                             Cost Effective
                         </h1>

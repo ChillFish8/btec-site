@@ -14,7 +14,7 @@ function Contact() {
 
     return (
         <div className="flex justify-center bg-purple-700 w-full min-h-screen pt-20">
-            <div className="w-2/3">
+            <div className="w-full md:w-2/3">
                  <div className="mt-8 ml-8">
                     <h1 className="text-white font-bold text-2xl">Get In Touch</h1>
                     <p className="text-gray-300 text-lg w-3/5">
@@ -28,7 +28,7 @@ function Contact() {
                         <input type="hidden" name="subject" value="New Submission from Web3Forms"/>
                         <input type="checkbox" name="botcheck" id="" style={{display: 'none'}}/>
 
-                        <div className="flex mb-6">
+                        <div className="flex flex-wrap mb-6 space-y-4">
                             <div className="mr-6">
                                 <label htmlFor="name"
                                        className="block mb-2 text-sm text-white dark:text-gray-400">
@@ -55,7 +55,7 @@ function Contact() {
                                        className="w-64 px-3 py-2 placeholder-gray-400 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-800 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"/>
                             </div>
                         </div>
-                        <div className="flex mb-6">
+                        <div className="flex flex-wrap mb-6 space-y-4">
                             <div className="mr-6 flex flex-col">
                                 <label htmlFor="phone" className="text-sm text-white dark:text-gray-400 mb-2">
                                     Phone Number

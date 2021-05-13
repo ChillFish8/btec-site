@@ -46,14 +46,14 @@ function Card(props) {
 function Prices() {
     return (
         <div className="flex flex-col items-center bg-purple-700 w-full min-h-screen pt-20">
-            <div className="mt-8 mr-12">
-                <h1 className="text-white font-bold text-2xl">Our Prices</h1>
-                <p className="text-gray-300 text-lg w-3/5">
+            <div className="mt-8 md:mr-12">
+                <h1 className="text-white text-center md:text-left font-bold text-2xl">Our Prices</h1>
+                <p className="text-gray-300 text-center md:text-left text-lg w-full md:w-3/5 px-4 md:px-0">
                     We offer 3 select package perfect for every business in need of
                     small jobs all the way up to big design jobs and websites.
                 </p>
             </div>
-            <div className="flex justify-evenly w-2/3 mt-16 px-4">
+            <div className="flex flex-wrap justify-evenly w-2/3 mt-16 space-y-8 px-4">
                 <Card
                     title="Lite"
                     features={["10 Basic icons", "Expert consultancy", "3 full vector graphics", "Super fast turnaround"]}
